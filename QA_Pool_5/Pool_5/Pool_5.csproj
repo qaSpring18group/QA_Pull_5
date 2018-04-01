@@ -42,6 +42,7 @@
     <Compile Include="Common\UsefullMethods.cs" />
     <Compile Include="Site\MainPage.cs" />
     <Compile Include="Tests\Skuratovskyi\FirstTest.cs" />
+    <Compile Include="Tests\Tisna\FirstTestCase.cs" />
     <Compile Include="Tests\Zaika\TestClass1.cs" />
   </ItemGroup>
   <ItemGroup>
