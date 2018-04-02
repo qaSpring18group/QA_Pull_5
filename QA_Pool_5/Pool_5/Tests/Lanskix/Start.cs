@@ -4,11 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Pool_5.Tests.Skuratovskyi
+namespace Lanskix
 {
-    class FirstTest
+    class Start
     {
-        // test 1
-		// test 2 
     }
 }

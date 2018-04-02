@@ -4,11 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Pool_5.Tests.Skuratovskyi
+namespace Pool_5.Tests.Tisna
 {
-    class FirstTest
+    class FirstTestCase
     {
-        // test 1
-		// test 2 
     }
 }
