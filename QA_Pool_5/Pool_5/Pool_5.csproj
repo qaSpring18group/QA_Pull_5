@@ -6,7 +6,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{FC653D55-1736-421C-B143-C8850327FDEB}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <OutputType>Library</OutputType>
     <RootNamespace>Pool_5</RootNamespace>
     <AssemblyName>Pool_5</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
@@ -34,6 +34,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
@@ -43,6 +46,7 @@
     <Compile Include="Site\MainPage.cs" />
     <Compile Include="Tests\Skuratovskyi\FirstTest.cs" />
     <Compile Include="Tests\Tisna\FirstTestCase.cs" />
+    <Compile Include="Tests\Vantukh\VantukhTests.cs" />
     <Compile Include="Tests\Zaika\TestClass1.cs" />
   </ItemGroup>
   <ItemGroup>
