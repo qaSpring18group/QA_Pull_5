@@ -8,9 +8,9 @@ namespace Pool_5.Site
 {
     public class MainPage
     {
-        string headerResourses = "//*[@id='mainmenu']/ul/li[1]/a";
-        string headerGoeTag = "//*[@id='geotarget_top_selector']";
-        string headerEmail = "//*[@id='mainmenu']/ul/li[3]/a";
+        string headerResourses = "//*[@id='mainmenu']/ul/li[1]/a";       //  //a[contains(.,'Разделы')] - находит 2 елемента
+        string headerGoeTag = "//*[@id='geotarget_top_selector']"; 
+        string headerEmail = "//*[@id='mainmenu']/ul/li[3]/a";           // //a[contains(.,'Почта')] - находит 2 елемеента
         string headerFinance = "//*[@id='mainmenu']/ul/li[4]/a[1]";
         string headerFinanceKurs = "//*[@id='mainmenu']/ul/li[4]/a[2]";
         string headerAfisha = "//*[@id='mainmenu']/ul/li[5]/a";
