@@ -46,6 +46,7 @@
     <Compile Include="Common\UsefullMethods.cs" />
     <Compile Include="Site\LoginPage.cs" />
     <Compile Include="Site\MainPage.cs" />
+    <Compile Include="Tests\Ivchenko\IvchenkoTest_FT_7M.cs" />
     <Compile Include="Tests\Skuratovskyi\FirstTest.cs" />
     <Compile Include="Tests\Tishchenko\Test.cs" />
     <Compile Include="Tests\Tisna\FirstTestCase.cs" />
@@ -64,6 +65,7 @@
       <HintPath>..\packages\Selenium.Support.3.11.0\lib\net45\WebDriver.Support.dll</HintPath>
     </Reference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
