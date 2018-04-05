@@ -49,6 +49,7 @@
     <Compile Include="Site\LoginPage.cs" />
     <Compile Include="Site\MainPage.cs" />
     <Compile Include="Tests\Ivchenko\IvchenkoTest_FT_7M.cs" />
+    <Compile Include="Tests\Matiash\MFirstTest.cs" />
     <Compile Include="Tests\Skuratovskyi\FirstTest.cs" />
     <Compile Include="Tests\Tishchenko\Test.cs" />
     <Compile Include="Tests\Tisna\FirstTestCase.cs" />
