@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Pool_5
+namespace Pool_5.Tests.myzuka
 {
-   static class UsefullMethods
+    class Class1
     {
-        static internal string OpenTytbySite = "https://www.tut.by/";
     }
 }
