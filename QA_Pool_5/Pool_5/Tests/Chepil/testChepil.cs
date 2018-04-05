@@ -1,28 +1,39 @@
+using System;
+using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using OpenQA.Selenium.Firefox;
+using OpenQA.Selenium.IE;
+using OpenQA.Selenium.Support;
+using OpenQA.Selenium.Support.UI;
 
-namespace QA_Pool_5.Pool_5.Tests.Chepil
+
+namespace Pool_5
 {
 
-    class Program
+    public class testChepil
     {
-        static void Main(string[] args)
-        {
-            string resource = "//*[@id='mainmenu']/ul/li[1]/a/text()";
-            string url = "https://www.tut.by";
-            string compare = "Разделы";
-            //selenium
-            IWebDriver driver = new ChromeDriver();
-            driver.Manage().Window.Maximize();
-            driver.Url = url;
-            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
-            driver.FindElement(By.XPath(resource)).Click();
-        }
+        private IWebDriver driver;
+        private WebDriverWait wait;
 
+      //  SETUP
+        public void SetUp() {
+            driver = new ChromeDriver();
+            //driver = new FirefoxDriver();
+            //driver = new InternetExplorerDriver();
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
+            wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
+            driver.Manage().Window.Maximize();
+            string url = "https://www.tut.by/";
+        }
+        //TestCase(Description = "find element 'Разделы' on the page")
+        public void findElementOnThePage()
+        {
+            MainPage mp = new MainPage();
+            driver.Url = mp.url;
+            driver.FindElement(By.XPath(mp.headerResourses)).Click();
+            IWebElement news = wait.Until(ExpectedConditions.ElementExists(By.XPath(mp.resoursesNews)));
+            driver.FindElement(By.XPath(mp.resoursesNews)).Click();
+        }
     }
 }
