@@ -8,5 +8,6 @@ namespace Pool_5.Tests.Tishchenko
 {
     class Class1
     {
+        //ай какая ты молодец))
     }
 }
