@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-namespace Lanskix
+
+namespace Pool_5.Tests.Tishchenko
 {
-    class Start
+    class Class1
     {
+        //ай какая ты молодец))
     }
 }
