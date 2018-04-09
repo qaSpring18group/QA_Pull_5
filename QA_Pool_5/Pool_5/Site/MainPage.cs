@@ -6,6 +6,9 @@ namespace Pool_5
     {
         internal string urlMainPage = "https://www.tut.by/";
         internal string headerResourses = "//*[@id='mainmenu']/ul/li[1]/a";       //  //a[contains(.,'Разделы')] - находит 2 елемента
+        internal string hosterby = "//*[@id='mainmenu']/div/div/div/div/ul[1]/li[3]/a";
+        internal string hosterbyelement = "//*[@id='multidomen']/div[1]/div[1]/label";
+        internal string CloseheaderResourses = "//*[@id='mainmenu']/div/a/span[2]";
         internal string headerGoeTag = "//*[@id='geotarget_top_selector']";
         internal string headerEmail = "//*[@id='mainmenu']/ul/li[3]/a";           // //a[contains(.,'Почта')] - находит 2 елемеента
         internal string headerFinance = "//*[@id='mainmenu']/ul/li[4]/a[1]";
